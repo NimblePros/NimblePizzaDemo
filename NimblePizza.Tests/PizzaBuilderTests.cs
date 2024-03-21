@@ -10,6 +10,7 @@ public class PizzaBuilderTests
     {
         // Arrange
         var expectedPizza = new PizzaBuilder()
+            .WithDefaultValues()
             .WithName("Pepperoni Pizza")
             .WithToppings(new List<string> { "Pepperoni", "Mushrooms", "Extra Cheese" })
             .WithPrice(12.99m)

@@ -8,6 +8,13 @@ public class PizzaBuilder
     private List<string> _toppings;
     private decimal _price;
 
+    public PizzaBuilder WithDefaultValues()
+    {
+        _price = 10.99m;
+        _toppings = new List<string>() { "cheese", "sauce"};
+        return this;
+    }
+
     public PizzaBuilder WithName(string name)
     {
         _name = name;
