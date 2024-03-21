@@ -1,0 +1,19 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Nimble Pizza</PageTitle>
+
+<h1>Welcome to Nimble Pizza!</h1>
+
+<p class="coming-soon" role="status">@comingSoonMessage</p>
+
+<button class="order-now" role="button" @onclick="UpdateComingSoon">Order Now</button>
+
+@code {
+    private string comingSoonMessage = "Coming Soon";
+
+    private void UpdateComingSoon()
+    {
+        comingSoonMessage = "Not open yet!";
+    }
+}

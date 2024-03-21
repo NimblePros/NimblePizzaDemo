@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NimblePizza.Core", "NimblePizza.Core\NimblePizza.Core.csproj", "{C07EDEC4-7A4C-43DF-8D84-9445544499D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NimblePizza.UnitTests", "NimblePizza.Tests\NimblePizza.UnitTests.csproj", "{09BFF9C0-4BA3-4FCD-9E0C-12FEB88FA903}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NimblePizza.Blazor", "NimblePizza.Blazor\NimblePizza.Blazor.csproj", "{812C1B1D-25A0-4ACA-9FF3-6DE97C443F7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{777EE49B-E3A0-4AEE-8066-5F737B79FB1F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		test-all.bat = test-all.bat
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NimblePizza.FrontEndTests.NUnit", "NimblePizza.FrontEndTests.NUnit\NimblePizza.FrontEndTests.NUnit.csproj", "{935B04B2-AFE3-4EB3-95AA-D0508293690D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C07EDEC4-7A4C-43DF-8D84-9445544499D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07EDEC4-7A4C-43DF-8D84-9445544499D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07EDEC4-7A4C-43DF-8D84-9445544499D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07EDEC4-7A4C-43DF-8D84-9445544499D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09BFF9C0-4BA3-4FCD-9E0C-12FEB88FA903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BFF9C0-4BA3-4FCD-9E0C-12FEB88FA903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BFF9C0-4BA3-4FCD-9E0C-12FEB88FA903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BFF9C0-4BA3-4FCD-9E0C-12FEB88FA903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812C1B1D-25A0-4ACA-9FF3-6DE97C443F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812C1B1D-25A0-4ACA-9FF3-6DE97C443F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812C1B1D-25A0-4ACA-9FF3-6DE97C443F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812C1B1D-25A0-4ACA-9FF3-6DE97C443F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935B04B2-AFE3-4EB3-95AA-D0508293690D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935B04B2-AFE3-4EB3-95AA-D0508293690D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935B04B2-AFE3-4EB3-95AA-D0508293690D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935B04B2-AFE3-4EB3-95AA-D0508293690D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {453A3673-466A-421E-8978-4FFE0AD44E08}
+	EndGlobalSection
+EndGlobal
