@@ -1,6 +1,6 @@
-# Run the Blazor app as a background process
+REM Run the Blazor app as a background process
 start /b dotnet run --project .\NimblePizza.Blazor\NimblePizza.Blazor.csproj --launch-profile https
-# Run the tests - including the front end tests
+REM Run the tests - including the front end tests
 dotnet test
-# Stop background processes
+REM Stop background processes
 taskkill /IM dotnet.exe /F
